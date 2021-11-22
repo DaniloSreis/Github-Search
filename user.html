@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="modal/css/user.css" />
+    <title>User Github</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="icons/logo.svg" />
+          <h1>GitHub<br /><span>SEARCH</span></h1>
+        </div>
+        <div>
+          <a href="index.html"><img src="icons/voltar.svg" /></a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="card">
+        <div class="profile-photo">
+          <img src="" id="userPhoto" />
+        </div>
+        <div class="user-information">
+          <h2 id="userName"></h2>
+          <a href="" id="userUrl" target="_blank"
+            >@<span id="userLogin"></span
+          ></a>
+          <div class="other-user-information">
+            <div>
+              <img src="icons/location.svg" />
+              <span id="userLocation"></span>
+            </div>
+            <div>
+              <img src="icons/company.svg" />
+              <span id="userCompany"> </span>
+            </div>
+            <div>
+              <img src="icons/following.svg" />
+              <span id="userFollowing"></span>
+            </div>
+            <div>
+              <img src="icons/followers.svg" />
+              <span id="userFollowers"></span>
+            </div>
+            <div>
+              <img src="icons/star.svg" />
+              <span id="userStar"></span>
+            </div>
+          </div>
+        </div>
+        <div class="number-repositories">
+          <p>Total Repositorios</p>
+          <div>
+            <img src="icons/repositorios.svg" alt="" />
+            <span id="userRepositories"></span>
+          </div>
+        </div>
+      </section>
+      <section id="repositories"></section>
+      <!-- <img src="icons/Vector-1.svg" alt=""> -->
+    </main>
+    <script src="user.js"></script>
+  </body>
+</html>
